@@ -38,19 +38,20 @@ def users():
 def api():
 	print("api endpoint reached...")
 	API_KEY = os.environ.get("CICERO_API")
-	url = "https://cicero.azavea.com/v3.1/official?search_loc=%s&key=%s" % (address, API_KEY)
 	if request.method == "GET":
+		url = "https://cicero.azavea.com/v3.1/official?search_loc=%s&key=%s" % (address, API_KEY)
+		response = requests.get(url)
 		return flask.jsonify(response)
 	if request.method == "POST":
 		received_data = request.get_json()
-		print(f"received data: {received_data}")
+		address = received_data['data']
+		print(f"received address: {received_data}")
 		message = received_data['data']
 		return_data = {
 			"status": "success",
 			"message": f"received: {message}"
 		}
-		address = received_data['data']
-		response = requests.get(url)
+		# response = requests.get(url)
 
 		return flask.Response(response=json.dumps(return_data), status=201)
 
