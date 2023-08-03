@@ -7,23 +7,10 @@
     <div>officials page</div>
     <div><span>Last update: </span><span id="time-container"></span></div>
     <div>
-        <div id="sent-data-container"></div>
-    </div>
-    <hr>
-    <div>
-        <button onclick="getUsers()">Get user data</button>
         <div id="result-container"></div>
     </div>
 </body>
 <script>
-    document.getElementById('data-input')
-    .addEventListener('keyup', function(event) {
-        if (event.code === 'Enter')
-        {
-            event.preventDefault();
-            document.querySelector('button').click();
-        }
-  });
 
     var xhr = null;
 
@@ -38,22 +25,23 @@
     function dataCallback() {
         // Check response is ready or not
         if (xhr.readyState == 4 && xhr.status == 200) {
-            console.log("User data received!");
+            console.log("Officials data received!");
             getDate();
             dataDiv = document.getElementById('result-container');
             // Set current data text
             dataDiv.innerHTML = xhr.responseText;
         }
     }
-    function getUsers() {
-        console.log("Get users...");
+    function getOfficials() {
+        console.log("Get officials...");
         xhr = getXmlHttpRequestObject();
         xhr.onreadystatechange = dataCallback;
         // asynchronous requests
-        xhr.open("GET", "http://localhost:6969/users", true);
+        xhr.open("GET", "http://localhost:6969/api", true);
         // Send the request over the network
         xhr.send(null);
     }
+
     function getDate() {
         date = new Date().toString();
 
@@ -90,6 +78,7 @@
     }
     (function () {
         getDate();
+        getOfficials();
     })();
 </script>
 
