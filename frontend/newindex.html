@@ -75,6 +75,7 @@
             // Set current data text
             dataDiv.innerHTML = xhr.responseText;
         }
+        window.open("./officials.html", "_self");
     }
 
     function sendData() {
@@ -93,7 +94,7 @@
         // Send the request over the network
         xhr.send(JSON.stringify({"data": dataToSend}));
         
-        window.open("./officials.html", "_self");
+        
     }
     (function () {
         getDate();
