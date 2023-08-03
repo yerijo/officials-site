@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Skeleton</title>
+
+  <link href="./index.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+  <div id="heading">See your district officials now!</div>
+  <div id="maincontent">
+    <form onsubmit="sendAddress()">
+      <label for="getaddr">Input your address to get started:</label><br>
+      <input required type="text" id="getaddr" size="50" onKeyPress="return checkSubmit(event)"></input><br>
+      <small><i>example address: 123 W Some St City State</i></small><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div>
+    <div id="sent-data-container"></div>
+</div>
+</body>
+<script>
+  document.getElementById('getaddr')
+    .addEventListener('keyup', function(event) {
+        if (event.code === 'Enter')
+        {
+            event.preventDefault();
+            document.querySelector('form').submit();
+        }
+  });
+
+  var xhr=null;
+
+  getXmlHttpRequestObject = function () {
+    if(!xhr) {
+      // create a new XMLHttpRequest object
+      xhr = new XMLHttpRequest();
+    }
+    return xhr;
+  };
+
+  function sendAddress() {
+        dataToSend = document.getElementById('getaddr').value;
+        if (!dataToSend) {
+            console.log("Data is empty.");
+            return;
+        }
+        console.log("Sending data: " + dataToSend);
+        xhr = getXmlHttpRequestObject();
+        xhr.onreadystatechange = sendDataCallback;
+        // asynchronous requests
+        xhr.open("POST", "http://localhost:6969/api", true);
+        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        // Send the request over the network
+        xhr.send(JSON.stringify({"address": dataToSend}));
+    }
+
+    function sendDataCallback() {
+        // Check response is ready or not
+        if (xhr.readyState == 4 && xhr.status == 201) {
+            console.log("Data creation response received!");
+            getDate();
+            dataDiv = document.getElementById('sent-data-container');
+            // Set current data text
+            dataDiv.innerHTML = xhr.responseText;
+        }
+    }
+</script>
+</html>
