@@ -42,6 +42,7 @@
 
     function dataCallback() {
         // Check response is ready or not
+        // Ready state 4 means request finished and response is ready
         if (xhr.readyState == 4 && xhr.status == 200) {
             console.log("User data received!");
             getDate();

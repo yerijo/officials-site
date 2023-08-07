@@ -1,0 +1,210 @@
+{
+  "response": {
+      "errors": [],
+      "messages": [],
+      "results": {
+          "candidates": [
+              {
+                  "count": {
+                      "from": 0,
+                      "to": 0,
+                      "total": 1
+                  },
+                  "officials": [
+                      {
+                          "id": 454958,
+                          "sk": 342675,
+                          "valid_from": "2019-07-29 00:00:00",
+                          "valid_to": "2024-09-07 00:00:00",
+                          "last_update_date": "2023-06-08 07:03:59.996442",
+                          "salutation": "",
+                          "first_name": "Bryan",
+                          "middle_initial": "",
+                          "last_name": "Daniel",
+                          "nickname": "",
+                          "preferred_name": "",
+                          "name_suffix": "",
+                          "office": {
+                              "id": 454958,
+                              "sk": 342675,
+                              "valid_from": "2019-07-29 00:00:00",
+                              "valid_to": "2024-09-07 00:00:00",
+                              "last_update_date": "2023-06-08 07:03:59.996442",
+                              "district": {
+                                  "id": 875012,
+                                  "sk": 875012,
+                                  "valid_from": "0001-01-01 04:56:02",
+                                  "valid_to": null,
+                                  "last_update_date": "2019-10-22 00:00:00",
+                                  "district_type": "STATE_EXEC",
+                                  "subtype": "EXEC",
+                                  "country": "US",
+                                  "state": "TX",
+                                  "city": "",
+                                  "district_id": "TX",
+                                  "label": "Texas",
+                                  "num_officials": 17,
+                                  "ocd_id": "ocd-division/country:us/state:tx",
+                                  "data": {}
+                              },
+                              "representing_city": "",
+                              "representing_state": "TX",
+                              "representing_country": {
+                                  "status": "UN Member State",
+                                  "name_short": "United States",
+                                  "gmi_3": "USA",
+                                  "valid_from": "0001-01-01 00:00:00",
+                                  "name_short_iso": "United States",
+                                  "name_short_local": "United States",
+                                  "valid_to": null,
+                                  "id": 270,
+                                  "sk": 247,
+                                  "name_short_un": "United States of America",
+                                  "version": 1,
+                                  "fips": "US",
+                                  "last_update_date": "2012-10-10 17:29:57.613222",
+                                  "iso_3": "USA",
+                                  "iso_2": "US",
+                                  "iso_3_numeric": 840,
+                                  "name_long_local": "United States of America",
+                                  "name_long": "United States of America"
+                              },
+                              "notes": "",
+                              "title": "Workforce Commissioner",
+                              "chamber": {
+                                  "legislature_update_date": null,
+                                  "official_count": 3,
+                                  "id": 8365,
+                                  "term_length": "6 years",
+                                  "term_limit": "",
+                                  "inauguration_rules": "",
+                                  "name_native_language": "",
+                                  "contact_phone": "",
+                                  "name_formal": "Texas Workforce Commission",
+                                  "election_frequency": "",
+                                  "government": {
+                                      "name": "Texas, US",
+                                      "type": "STATE",
+                                      "city": "",
+                                      "state": "TX",
+                                      "country": {
+                                          "status": "UN Member State",
+                                          "name_short": "United States",
+                                          "gmi_3": "USA",
+                                          "valid_from": "0001-01-01 00:00:00",
+                                          "name_short_iso": "United States",
+                                          "name_short_local": "United States",
+                                          "valid_to": null,
+                                          "id": 270,
+                                          "sk": 247,
+                                          "name_short_un": "United States of America",
+                                          "version": 1,
+                                          "fips": "US",
+                                          "last_update_date": "2012-10-10 17:29:57.613222",
+                                          "iso_3": "USA",
+                                          "iso_2": "US",
+                                          "iso_3_numeric": 840,
+                                          "name_long_local": "United States of America",
+                                          "name_long": "United States of America"
+                                      },
+                                      "notes": "http://www.senate.state.tx.us\\nhttp://www.house.state.tx.us/welcome.php"
+                                  },
+                                  "redistricting_rules": "",
+                                  "vacancy_rules": "",
+                                  "is_chamber_complete": true,
+                                  "contact_email": "",
+                                  "last_update_date": "2021-08-27 18:50:24.236091",
+                                  "remarks": "",
+                                  "name": "Workforce Commission",
+                                  "url": "https://www.twc.texas.gov/",
+                                  "type": "EXEC",
+                                  "notes": "",
+                                  "has_geographic_representation": false,
+                                  "is_appointed": true,
+                                  "election_rules": "The three members of the commission are appointed by the governor to staggered six-year terms. The governor selects one of the members of the commission to serve as chair. Chairs are appointed to two-year terms and can be reappointed to consecutive terms."
+                              },
+                              "election_rules": ""
+                          },
+                          "initial_term_start_date": null,
+                          "current_term_start_date": "2019-07-29 00:00:00",
+                          "term_end_date": "2024-09-07 00:00:00",
+                          "addresses": [
+                              {
+                                  "address_1": "101 E. 15th Street",
+                                  "address_2": "Room 674",
+                                  "address_3": "",
+                                  "city": "Austin",
+                                  "county": "",
+                                  "state": "TX",
+                                  "postal_code": "78778",
+                                  "phone_1": "(512) 463-3030",
+                                  "fax_1": "",
+                                  "phone_2": "",
+                                  "fax_2": ""
+                              }
+                          ],
+                          "email_addresses": [
+                              "bryan.daniel@twc.texas.gov"
+                          ],
+                          "web_form_url": "",
+                          "urls": [
+                              "https://www.twc.texas.gov/commissioners#bryanDanielChairmanAndCommissionerRepresentingThePublic"
+                          ],
+                          "photo_origin_url": "https://www.twc.texas.gov/files/agency/commissioner-daniel-headshot.jpg",
+                          "photo_cropping": null,
+                          "notes": [
+                              "Bryan Daniel serves as Chairman of the Texas Workforce Commission where he works to promote and support the growth of Texas’ world class employers and talented workforce. To champion that goal, he advances innovative workforce and economic development strategies in collaboration with TWC’s education partners, local officials, and industry leaders to establish Texas’ competitive edge as the best place to work in the world.\\n\\nPrior to joining TWC, Bryan served for four and half years on Texas Governor Greg Abbott’s senior staff where he led the Office of Economic Development and Tourism – which included the Texas Enterprise Fund, Events Trust Fund, Governor’s University Research Initiative, Texas Tourism Office, Texas Music Office, Texas Film Commission, Texas Workforce Investment Council, the Economic Development Bank, the Texas Military Preparedness Commission and the State of Texas Mexico Office.\\n\\nBryan’s tenure as the Texas State Director for Rural Development for President George W. Bush and as Chief Administrator for Trade and Business Development at the Texas Department of Agriculture, along with his private sector experiences as a marketing executive and member of the board of directors, have provided him with valuable insights on economic development and workforce issues.\\n\\nBryan is a graduate of Texas Tech University with both a bachelor’s degree and master’s degree.  In 2019, Texas Tech’s College of Agricultural Sciences and Natural Resources recognized Bryan as a Distinguished Alumnus.",
+                              null
+                          ],
+                          "committees": [],
+                          "party": "",
+                          "identifiers": [
+                              {
+                                  "official": 454958,
+                                  "version": 1,
+                                  "identifier_type": "LINKEDIN",
+                                  "valid_to": "2024-09-07 00:00:00",
+                                  "sk": 955682,
+                                  "valid_from": "2019-07-29 00:00:00",
+                                  "last_update_date": "2023-06-08 07:03:59.996442",
+                                  "id": 955682,
+                                  "identifier_value": "https://www.linkedin.com/in/bryan-daniel-10838616/"
+                              },
+                              {
+                                  "official": 454958,
+                                  "version": 1,
+                                  "identifier_type": "TWITTER",
+                                  "valid_to": "2024-09-07 00:00:00",
+                                  "sk": 955683,
+                                  "valid_from": "2019-07-29 00:00:00",
+                                  "last_update_date": "2023-06-08 07:03:59.996442",
+                                  "id": 955683,
+                                  "identifier_value": "twcforpublic"
+                              }
+                          ],
+                          "titles": [
+                              "Chairman"
+                          ]
+                      }
+                  ],
+                  "locator": "rooftop",
+                  "score": 0,
+                  "match_addr": "2802 Nueces St, Austin, TX 78705, USA",
+                  "x": -97.742901,
+                  "y": 30.293743,
+                  "wkid": 4326,
+                  "entity_types": [
+                      "premise"
+                  ],
+                  "partial_match": false,
+                  "match_city": "Austin",
+                  "match_subregion": "Travis County",
+                  "match_region": "TX",
+                  "match_postal": "78705",
+                  "match_country": "US",
+                  "geoservice": "Google"
+              }
+          ]
+      }
+  }
+}

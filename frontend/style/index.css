@@ -1,0 +1,30 @@
+#sidebar{
+  
+}
+
+#heading{
+  height:5vh;
+  margin:auto;
+  margin-top:10px;
+  width:799px;
+}
+
+body{
+  text-align:center;
+}
+
+#maincontent{
+  margin:auto;
+  text-align:left;
+}
+
+#officials-container{
+  display:flex;
+}
+
+article{
+  height:30vh;
+  width:20vw;
+  display:flex;
+  flex-direction:column;
+}

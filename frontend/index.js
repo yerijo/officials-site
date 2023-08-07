@@ -1,12 +1,3 @@
-document.getElementById('data-input')
-.addEventListener('keyup', function(event) {
-  if (event.code === 'Enter')
-  {
-    event.preventDefault();
-    document.querySelector('button').click();
-  }
-});
-
 var xhr = null;
 
 getXmlHttpRequestObject = function () {
@@ -17,23 +8,11 @@ getXmlHttpRequestObject = function () {
   return xhr;
 };
 
-function getDate() {
-  date = new Date().toString();
-
-  document.getElementById('time-container').textContent
-      = date;
-}
-
 function sendDataCallback() {
   // Check response is ready or not
   if (xhr.readyState == 4 && xhr.status == 201) {
-      console.log("Data creation response received!");
-      getDate();
-      dataDiv = document.getElementById('sent-data-container');
-      // Set current data text
-      dataDiv.innerHTML = xhr.responseText;
+    window.open("./officials.html", "_self");
   }
-  // window.open("./officials.html", "_self");
 }
 
 function sendData() {
@@ -51,9 +30,4 @@ function sendData() {
   
   // Send the request over the network
   xhr.send(JSON.stringify({"data": dataToSend}));
-  
-  
 }
-(function () {
-  getDate();
-})();

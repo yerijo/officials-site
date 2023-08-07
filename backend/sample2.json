@@ -1,0 +1,457 @@
+{
+  "response": {
+      "testing": "hello",
+      "errors": [],
+      "messages": [],
+      "results": {
+          "candidates": [
+              {
+                  "count": {
+                      "from": 30,
+                      "to": 31,
+                      "total": 51
+                  },
+                  "officials": [
+                      {
+                          "id": 455177,
+                          "sk": 402155,
+                          "valid_from": "2023-01-01 00:00:00",
+                          "valid_to": "2025-01-01 00:00:00",
+                          "last_update_date": "2023-06-09 05:54:22.893921",
+                          "salutation": "",
+                          "first_name": "Rebecca",
+                          "middle_initial": "",
+                          "last_name": "Bell-Metereau",
+                          "nickname": "",
+                          "preferred_name": "",
+                          "name_suffix": "",
+                          "office": {
+                              "id": 455177,
+                              "sk": 402155,
+                              "valid_from": "2023-01-01 00:00:00",
+                              "valid_to": "2025-01-01 00:00:00",
+                              "last_update_date": "2023-06-09 05:54:22.893921",
+                              "district": {
+                                  "id": 1266057,
+                                  "sk": 1266057,
+                                  "valid_from": "2022-01-18 00:00:00",
+                                  "valid_to": null,
+                                  "last_update_date": "2022-11-28 19:42:55.526441",
+                                  "district_type": "STATE_EXEC",
+                                  "subtype": "BOARD OF EDUCATION",
+                                  "country": "US",
+                                  "state": "TX",
+                                  "city": "",
+                                  "district_id": "5",
+                                  "label": "Texas State Board of Education district 5",
+                                  "num_officials": 1,
+                                  "ocd_id": "ocd-division/country:us/state:tx/boe_district:5",
+                                  "data": {}
+                              },
+                              "representing_city": "",
+                              "representing_state": "TX",
+                              "representing_country": {
+                                  "status": "UN Member State",
+                                  "name_short": "United States",
+                                  "gmi_3": "USA",
+                                  "valid_from": "0001-01-01 00:00:00",
+                                  "name_short_iso": "United States",
+                                  "name_short_local": "United States",
+                                  "valid_to": null,
+                                  "id": 270,
+                                  "sk": 247,
+                                  "name_short_un": "United States of America",
+                                  "version": 1,
+                                  "fips": "US",
+                                  "last_update_date": "2012-10-10 17:29:57.613222",
+                                  "iso_3": "USA",
+                                  "iso_2": "US",
+                                  "iso_3_numeric": 840,
+                                  "name_long_local": "United States of America",
+                                  "name_long": "United States of America"
+                              },
+                              "notes": "",
+                              "title": "SBOE Member",
+                              "chamber": {
+                                  "legislature_update_date": null,
+                                  "official_count": 15,
+                                  "id": 9312,
+                                  "term_length": "4 years",
+                                  "term_limit": "None",
+                                  "inauguration_rules": "January 1 of the year following the election.",
+                                  "name_native_language": "",
+                                  "contact_phone": "",
+                                  "name_formal": "Texas State Board of Education",
+                                  "election_frequency": "2 years",
+                                  "government": {
+                                      "name": "Texas, US",
+                                      "type": "STATE",
+                                      "city": "",
+                                      "state": "TX",
+                                      "country": {
+                                          "status": "UN Member State",
+                                          "name_short": "United States",
+                                          "gmi_3": "USA",
+                                          "valid_from": "0001-01-01 00:00:00",
+                                          "name_short_iso": "United States",
+                                          "name_short_local": "United States",
+                                          "valid_to": null,
+                                          "id": 270,
+                                          "sk": 247,
+                                          "name_short_un": "United States of America",
+                                          "version": 1,
+                                          "fips": "US",
+                                          "last_update_date": "2012-10-10 17:29:57.613222",
+                                          "iso_3": "USA",
+                                          "iso_2": "US",
+                                          "iso_3_numeric": 840,
+                                          "name_long_local": "United States of America",
+                                          "name_long": "United States of America"
+                                      },
+                                      "notes": "http://www.senate.state.tx.us\\nhttp://www.house.state.tx.us/welcome.php"
+                                  },
+                                  "redistricting_rules": "The first time members meet after getting elected to redrawn districts, seven members selected at random have their current terms shortened to two years, meaning that their seats come up for election in different years than the other eight.",
+                                  "vacancy_rules": "",
+                                  "is_chamber_complete": true,
+                                  "contact_email": "",
+                                  "last_update_date": "2022-12-12 21:44:03.744119",
+                                  "remarks": "",
+                                  "name": "State Board of Education",
+                                  "url": "https://tea.texas.gov/about-tea/leadership/state-board-of-education",
+                                  "type": "EXEC",
+                                  "notes": "",
+                                  "has_geographic_representation": false,
+                                  "is_appointed": false,
+                                  "election_rules": "Elections are held in even-numbered years."
+                              },
+                              "election_rules": ""
+                          },
+                          "initial_term_start_date": null,
+                          "current_term_start_date": "2023-01-01 00:00:00",
+                          "term_end_date": "2025-01-01 00:00:00",
+                          "addresses": [
+                              {
+                                  "address_1": "1701 N. Congress Avenue",
+                                  "address_2": "",
+                                  "address_3": "",
+                                  "city": "Austin",
+                                  "county": "",
+                                  "state": "TX",
+                                  "postal_code": "78701",
+                                  "phone_1": "(512) 665-2157",
+                                  "fax_1": "",
+                                  "phone_2": "",
+                                  "fax_2": ""
+                              },
+                              {
+                                  "address_1": "P.O. Box 425",
+                                  "address_2": "",
+                                  "address_3": "",
+                                  "city": "San Marcos",
+                                  "county": "",
+                                  "state": "TX",
+                                  "postal_code": "78666",
+                                  "phone_1": "",
+                                  "fax_1": "",
+                                  "phone_2": "",
+                                  "fax_2": ""
+                              }
+                          ],
+                          "email_addresses": [
+                              "rebecca.bellmetereau@tea.texas.gov"
+                          ],
+                          "web_form_url": "",
+                          "urls": [
+                              "https://tea.texas.gov/about-tea/leadership/state-board-of-education/sboe-board-members/sboe-member-district-5"
+                          ],
+                          "photo_origin_url": "https://media.kvue.com/assets/KVUE/images/98f0bd7b-b059-4f80-807a-390df709e5e4/98f0bd7b-b059-4f80-807a-390df709e5e4_1920x1080.jpg",
+                          "photo_cropping": {
+                            "x": 605.99609375,
+                            "y": 0,
+                            "width": 655.996,
+                            "height": 707.988,
+                            "origWidth": 1920,
+                            "origHeight": 1080
+                          },
+                          "notes": [
+                              "Rebecca Bell-Metereau is a Democrat representing District 5 on the State Board of Education. She teaches film in the English Department at Texas State University, where she directs the interdisciplinary Media Studies Program that she developed. She was a Fulbright scholar and professor at the University of St. Louis, Senegal, and taught as visiting professor at the University of Nebraska.\\n\\nShe grew up on a farm in northern Indiana, graduated from a one-building K-12 public school along with seventeen classmates, and went to Indiana University, where she met her future husband, Jean-Pierre Metereau. After receiving their Masters, they joined the Peace Corps in Chad, one of the ten poorest countries in the world. They taught grade school and high school in Bongor, and at the University of Chad and the United States Information Service in N'Djamena, the capital. They served as French-language interpreters for U.S. Air Force grain flights to the drought-stricken Sahel.\\n\\nAfter receiving their doctorate degrees from Indiana University, Rebecca joined Southwest Texas State University, and Jean-Pierre joined Texas Lutheran College. As a researcher and author, Bell-Metereau has delivered over a hundred professional papers, authored four books, sixteen book chapters, 29 scholarly articles, and twelve reference entries. She served as a Special Assistant to President Supple at Texas State University for two years, and was campus director of a Ford Foundation grant on diversity, service learning, and media literacy across the curriculum. She conducted workshops through National Endowment for the Humanities and K-12 foundations for teacher development. Bell-Metereau is a Texas State University Faculty Senator and a board member of the statewide Texas Faculty Association.  She is a recipient of the Texas State University teaching and service awards.",
+                              null
+                          ],
+                          "committees": [],
+                          "party": "Democrat",
+                          "identifiers": [
+                              {
+                                  "official": 455177,
+                                  "version": 1,
+                                  "identifier_type": "FACEBOOK",
+                                  "valid_to": "2025-01-01 00:00:00",
+                                  "sk": 956574,
+                                  "valid_from": "2023-01-01 00:00:00",
+                                  "last_update_date": "2023-06-09 05:54:22.893921",
+                                  "id": 956574,
+                                  "identifier_value": "https://www.facebook.com/rebecca.bellmetereau"
+                              },
+                              {
+                                  "official": 455177,
+                                  "version": 1,
+                                  "identifier_type": "FACEBOOK-OFFICIAL",
+                                  "valid_to": "2025-01-01 00:00:00",
+                                  "sk": 956576,
+                                  "valid_from": "2023-01-01 00:00:00",
+                                  "last_update_date": "2023-06-09 05:54:22.893921",
+                                  "id": 956576,
+                                  "identifier_value": "https://www.facebook.com/voterebecca"
+                              },
+                              {
+                                  "official": 455177,
+                                  "version": 1,
+                                  "identifier_type": "INSTAGRAM",
+                                  "valid_to": "2025-01-01 00:00:00",
+                                  "sk": 956573,
+                                  "valid_from": "2023-01-01 00:00:00",
+                                  "last_update_date": "2023-06-09 05:54:22.893921",
+                                  "id": 956573,
+                                  "identifier_value": "bellmetereau"
+                              },
+                              {
+                                  "official": 455177,
+                                  "version": 1,
+                                  "identifier_type": "LINKEDIN",
+                                  "valid_to": "2025-01-01 00:00:00",
+                                  "sk": 956571,
+                                  "valid_from": "2023-01-01 00:00:00",
+                                  "last_update_date": "2023-06-09 05:54:22.893921",
+                                  "id": 956571,
+                                  "identifier_value": "https://www.linkedin.com/in/rebecca-bell-metereau-690ab110"
+                              },
+                              {
+                                  "official": 455177,
+                                  "version": 1,
+                                  "identifier_type": "TWITTER",
+                                  "valid_to": "2025-01-01 00:00:00",
+                                  "sk": 956572,
+                                  "valid_from": "2023-01-01 00:00:00",
+                                  "last_update_date": "2023-06-09 05:54:22.893921",
+                                  "id": 956572,
+                                  "identifier_value": "voterebecca"
+                              },
+                              {
+                                  "official": 455177,
+                                  "version": 1,
+                                  "identifier_type": "VOTESMART",
+                                  "valid_to": "2025-01-01 00:00:00",
+                                  "sk": 956575,
+                                  "valid_from": "2023-01-01 00:00:00",
+                                  "last_update_date": "2023-06-09 05:54:22.893921",
+                                  "id": 956575,
+                                  "identifier_value": "128079"
+                              }
+                          ],
+                          "titles": []
+                      },
+                      {
+                          "id": 464348,
+                          "sk": 349112,
+                          "valid_from": "2021-09-07 00:00:00",
+                          "valid_to": "2027-12-31 00:00:00",
+                          "last_update_date": "2023-07-26 06:15:02.594904",
+                          "salutation": "",
+                          "first_name": "Cassie",
+                          "middle_initial": "",
+                          "last_name": "Brown",
+                          "nickname": "",
+                          "preferred_name": "",
+                          "name_suffix": "",
+                          "office": {
+                              "id": 464348,
+                              "sk": 349112,
+                              "valid_from": "2021-09-07 00:00:00",
+                              "valid_to": "2027-12-31 00:00:00",
+                              "last_update_date": "2023-07-26 06:15:02.594904",
+                              "district": {
+                                  "id": 875012,
+                                  "sk": 875012,
+                                  "valid_from": "0001-01-01 04:56:02",
+                                  "valid_to": null,
+                                  "last_update_date": "2019-10-22 00:00:00",
+                                  "district_type": "STATE_EXEC",
+                                  "subtype": "EXEC",
+                                  "country": "US",
+                                  "state": "TX",
+                                  "city": "",
+                                  "district_id": "TX",
+                                  "label": "Texas",
+                                  "num_officials": 17,
+                                  "ocd_id": "ocd-division/country:us/state:tx",
+                                  "data": {}
+                              },
+                              "representing_city": "",
+                              "representing_state": "TX",
+                              "representing_country": {
+                                  "status": "UN Member State",
+                                  "name_short": "United States",
+                                  "gmi_3": "USA",
+                                  "valid_from": "0001-01-01 00:00:00",
+                                  "name_short_iso": "United States",
+                                  "name_short_local": "United States",
+                                  "valid_to": null,
+                                  "id": 270,
+                                  "sk": 247,
+                                  "name_short_un": "United States of America",
+                                  "version": 1,
+                                  "fips": "US",
+                                  "last_update_date": "2012-10-10 17:29:57.613222",
+                                  "iso_3": "USA",
+                                  "iso_2": "US",
+                                  "iso_3_numeric": 840,
+                                  "name_long_local": "United States of America",
+                                  "name_long": "United States of America"
+                              },
+                              "notes": "",
+                              "title": "Commissioner of Insurance",
+                              "chamber": {
+                                  "legislature_update_date": null,
+                                  "official_count": 1,
+                                  "id": 8064,
+                                  "term_length": "",
+                                  "term_limit": "",
+                                  "inauguration_rules": "",
+                                  "name_native_language": "",
+                                  "contact_phone": "",
+                                  "name_formal": "Texas Commissioner of Insurance",
+                                  "election_frequency": "",
+                                  "government": {
+                                      "name": "Texas, US",
+                                      "type": "STATE",
+                                      "city": "",
+                                      "state": "TX",
+                                      "country": {
+                                          "status": "UN Member State",
+                                          "name_short": "United States",
+                                          "gmi_3": "USA",
+                                          "valid_from": "0001-01-01 00:00:00",
+                                          "name_short_iso": "United States",
+                                          "name_short_local": "United States",
+                                          "valid_to": null,
+                                          "id": 270,
+                                          "sk": 247,
+                                          "name_short_un": "United States of America",
+                                          "version": 1,
+                                          "fips": "US",
+                                          "last_update_date": "2012-10-10 17:29:57.613222",
+                                          "iso_3": "USA",
+                                          "iso_2": "US",
+                                          "iso_3_numeric": 840,
+                                          "name_long_local": "United States of America",
+                                          "name_long": "United States of America"
+                                      },
+                                      "notes": "http://www.senate.state.tx.us\\nhttp://www.house.state.tx.us/welcome.php"
+                                  },
+                                  "redistricting_rules": "",
+                                  "vacancy_rules": "",
+                                  "is_chamber_complete": true,
+                                  "contact_email": "",
+                                  "last_update_date": "2021-07-23 20:32:29.514128",
+                                  "remarks": "",
+                                  "name": "Commissioner of Insurance",
+                                  "url": "https://www.tdi.texas.gov/",
+                                  "type": "EXEC",
+                                  "notes": "",
+                                  "has_geographic_representation": false,
+                                  "is_appointed": true,
+                                  "election_rules": "The commissioner of insurance is appointed by the governor with the consent of the state Senate. Appointment is done in accordance with Chapter 31 Section 22 of the Texas Insurance Code."
+                              },
+                              "election_rules": ""
+                          },
+                          "initial_term_start_date": null,
+                          "current_term_start_date": "2021-09-07 00:00:00",
+                          "term_end_date": "2027-12-31 00:00:00",
+                          "addresses": [
+                              {
+                                  "address_1": "P.O. Box 12030",
+                                  "address_2": "",
+                                  "address_3": "",
+                                  "city": "Austin",
+                                  "county": "",
+                                  "state": "TX",
+                                  "postal_code": "78711",
+                                  "phone_1": "(800) 578-4677",
+                                  "fax_1": "",
+                                  "phone_2": "",
+                                  "fax_2": ""
+                              }
+                          ],
+                          "email_addresses": [
+                              "mediarelations@tdi.texas.gov"
+                          ],
+                          "web_form_url": "",
+                          "urls": [
+                              "https://www.tdi.texas.gov/commissioner/index.html"
+                          ],
+                          "photo_origin_url": "https://www.tdi.texas.gov/artwork/pa/cassie-brown.jpg",
+                          "photo_cropping": null,
+                          "notes": [
+                              "Cassie Brown was appointed to serve as Texas insurance commissioner by Governor Greg Abbott in September 2021. She is the chief executive of the Texas Department of Insurance (TDI), overseeing the regulation of the second largest insurance market in the nation and the seventh largest in the world. \\n\\nBrown previously served as commissioner of the Division of Workers’ Compensation (DWC), having been appointed to the role by Governor Abbott in 2018 and reappointed in 2019 and 2021. \\n\\nBrown has more than 20 years of public service experience and serves on the Executive Women in Texas Government President’s Advisory Committee. She was TDI’s deputy commissioner for Regulatory Policy where she led the regulation of the forms, rates, and products sold in the Texas insurance market; oversaw the residual markets; assured the adequacy of insurers’ loss control programs; and provided inspections and compliance activities related to the state’s windstorm market.\\n\\nEarlier in her career, Brown served as a key advisor to Governor Rick Perry on policy and budget issues including insurance, health regulatory, and workers’ compensation. She also served in the administration of Governor George W. Bush.\\n\\nBrown received a Bachelor of Arts in political science from St. Edward’s University and attended the Governor’s Executive Development Program at The University of Texas LBJ School of Public Affairs.",
+                              null
+                          ],
+                          "committees": [],
+                          "party": "",
+                          "identifiers": [
+                              {
+                                  "official": 464348,
+                                  "version": 1,
+                                  "identifier_type": "FACEBOOK-OFFICIAL",
+                                  "valid_to": "2027-12-31 00:00:00",
+                                  "sk": 990133,
+                                  "valid_from": "2021-09-07 00:00:00",
+                                  "last_update_date": "2023-07-26 06:15:02.594904",
+                                  "id": 990133,
+                                  "identifier_value": "https://www.facebook.com/TexasDepartmentofInsurance/"
+                              },
+                              {
+                                  "official": 464348,
+                                  "version": 1,
+                                  "identifier_type": "TWITTER",
+                                  "valid_to": "2027-12-31 00:00:00",
+                                  "sk": 990134,
+                                  "valid_from": "2021-09-07 00:00:00",
+                                  "last_update_date": "2023-07-26 06:15:02.594904",
+                                  "id": 990134,
+                                  "identifier_value": "TexasTDI"
+                              },
+                              {
+                                  "official": 464348,
+                                  "version": 1,
+                                  "identifier_type": "YOUTUBE",
+                                  "valid_to": "2027-12-31 00:00:00",
+                                  "sk": 990135,
+                                  "valid_from": "2021-09-07 00:00:00",
+                                  "last_update_date": "2023-07-26 06:15:02.594904",
+                                  "id": 990135,
+                                  "identifier_value": "UC0ROJMNKu2zHd6D0Mi2Gjtw"
+                              }
+                          ],
+                          "titles": []
+                      }
+                  ],
+                  "locator": "rooftop",
+                  "score": 0,
+                  "match_addr": "2802 Nueces St, Austin, TX 78705, USA",
+                  "x": -97.742901,
+                  "y": 30.293743,
+                  "wkid": 4326,
+                  "entity_types": [
+                      "premise"
+                  ],
+                  "partial_match": false,
+                  "match_city": "Austin",
+                  "match_subregion": "Travis County",
+                  "match_region": "TX",
+                  "match_postal": "78705",
+                  "match_country": "US",
+                  "geoservice": "Google"
+              }
+          ]
+      }
+  }
+}

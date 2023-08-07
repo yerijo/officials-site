@@ -1,0 +1,100 @@
+#header{
+  height:7vh;
+  line-height:7vh;
+  margin:auto;
+  text-align:center;
+}
+
+#menu{
+  margin:auto;
+  line-height:1em;
+  text-align:center;
+  position:sticky;
+  top:0;
+  width:60vw;
+}
+
+#menu a, #menu a:visited{
+  line-height:1em;
+  background-color:white;
+  margin: 1em auto 1em;
+  text-decoration:underline;
+  color:black;
+  width:32%;
+  text-align:center;
+  float: left;
+  border:2px double black;
+}
+
+.last-name{
+  padding:0;
+  margin:0;
+  display:inline;
+}
+
+#sidebar{
+  width:10vw;
+  text-align:left;
+}
+
+#sidebar a{
+  display:block;
+}
+
+#grid-container{
+  width:80vw;
+  margin:auto;
+}
+
+#maincontent{
+  display:inline-grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+#officials-container{
+  text-align:center;
+}
+
+article{
+  display:inline-block;
+  vertical-align:top;
+  height:45vh;
+  width:25%;
+}
+
+article button{
+  font-family:inherit;
+  font-weight:bold;
+  font-size:large;
+  line-height:1em;
+  display:inline-block;
+  padding: .2em 0;
+  margin:0 !important;
+  background: none;
+	border: none;
+	color: black;
+	cursor: pointer;
+}
+
+article p{
+  padding:0;
+  margin:0;
+  padding:.3em 0;
+}
+
+.photo{
+  height:17vh;
+  object-fit: cover;
+}
+
+.photo img{
+  height:100%;
+  width:100%;
+  object-fit:scale-down;
+}
+
+.photo canvas{
+  height:100%;
+  width:100%;
+  object-fit:scale-down;
+}

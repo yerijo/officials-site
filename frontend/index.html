@@ -1,24 +1,29 @@
 <html>
 <header>
     <title>Test page</title>
+    <link href="./style/index.css" rel="stylesheet" type="text/css" media="all">
 </header>
 
 <body>
-    <div>This is simple test to send address to backend</div>
-    <div><span>Last update: </span><span id="time-container"></span></div>
+  <div id="maincontent">
+    <div>See the officials of your district!</div>
     <div>
-        <label for="data-input">Data to send:</label>
+        <label for="data-input">Input your address:</label><br>
         <input type="text" id="data-input">
         <button onclick="sendData()">Send data</button>
     </div>
-    <div>
-        <div id="sent-data-container"></div>
-    </div>
-    <hr>
-    <div>
-        <button onclick="getUsers()">Get user data</button>
-        <div id="result-container"></div>
-    </div>
     <script type="text/javascript" src="./index.js"></script>
+  </div>
 </body>
+<script>
+    document.getElementById('data-input')
+.addEventListener('keyup', function(event) {
+  if (event.code === 'Enter')
+  {
+    event.preventDefault();
+    document.querySelector('button').click();
+  }
+});
+
+</script>
 </html>
