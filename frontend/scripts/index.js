@@ -25,7 +25,7 @@ function sendData() {
   xhr = getXmlHttpRequestObject();
   xhr.onreadystatechange = sendDataCallback;
   // asynchronous requests
-  xhr.open("POST", "http://localhost:6969/api", true);
+  xhr.open("POST", "http://localhost:6969/officials", true);
   xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
   
   // Send the request over the network

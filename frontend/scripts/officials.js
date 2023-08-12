@@ -41,19 +41,25 @@ function populateOfficials(obj) {
         section = document.getElementById('non-legislative');
         break;
     }
-    section.appendChild(article);
+    if (article) {
+      section.appendChild(article);
+    }
+    
   }
 }
 
 function createArticle(candidate) {
+  if (!candidate.last_name.localeCompare("VACANT")) {
+    return null;
+  }
   const myArticle = document.createElement("article");
   const imgElem = getImage(candidate);
-  const nameElem = document.createElement("button"); // name
+  let nameElem = document.createElement("button"); // name
   const titleElem = document.createElement("p"); // title
   const partyElem = document.createElement("p"); // party
   const termElem = document.createElement("p"); // term
   
-  nameElem.textContent = concatName(candidate);
+  nameElem = concatName(candidate, nameElem);
   titleElem.textContent = `${candidate.office.chamber.name_formal}`;
   partyElem.textContent = `${candidate.party}`;
   termElem.textContent = concatTerm(candidate);
@@ -72,7 +78,30 @@ function createArticle(candidate) {
 }
 
 function clickedOfficial(button) {
-  officialName = button.textContent;
+  var lastName = button.querySelector(".last-name").innerHTML;
+  if (!lastName) {
+    console.log("Last name is null.");
+    return;
+  }
+  // console.log(button.querySelector(".last-name").innerHTML);
+  sendLastName(lastName); 
+}
+
+function sendLastName(lastName) {
+  console.log("Sending official last name to backend: " + lastName);
+  xhr = getXmlHttpRequestObject();
+  xhr.onreadystatechange = sendLastNameCallback;
+  xhr.open("POST", "http://localhost:6969/official", true);
+  xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+  
+  // Send the request over the network
+  xhr.send(JSON.stringify({"last-name": lastName}));
+}
+
+function sendLastNameCallback() {
+  if (xhr.readyState == 4 && xhr.status == 201) {
+    window.open("./official.html", "_self");
+  }
 }
 
 function getImage(cand) {
@@ -140,65 +169,30 @@ function vw(percent) {
   return (percent * w) / 100;
 }
 
-function concatName(cand) {
-  let name = "";
+function concatName(cand,elem) {
+  let first = cand.first_name;
   if (cand.preferred_name != "") {
-    name = cand.preferred_name;
-  } else {
-    name = cand.first_name;
+    first = cand.preferred_name;
+  } 
+  if (cand.nickname != "") {
+    first.concat(" ","\""+cand.nickname+"\"");
   }
-  const parts = [cand.nickname,
-                 cand.last_name];
-  for (var i = 0; i < 2; i++) {
-    let part;
-    if (parts[i] != "") {
-      switch(i) {
-        // nickname
-        case 0:
-          part = "\""+parts[i]+"\"";
-          break;
-        default:
-          part = parts[i];
-          break;
-      }
-      name = name.concat(" ", part);
-    }
-  }
-  return name;
+  elem.textContent = first+" ";
+  const last = document.createElement("div");
+  last.setAttribute('class', 'last-name');
+  last.textContent = cand.last_name;
+  elem.appendChild(last);
+  return elem;
 }
 
-// function concatName(cand) {
-//   let name = cand.first_name;
-//   const parts = [cand.preferred_name, 
-//                  cand.nickname, 
-//                  cand.middle_initial, 
-//                  cand.last_name, 
-//                  cand.name_suffix];
-//   for (var i = 0; i < 5; i++) {
-//     let part;
-//     if (parts[i] != "") {
-//       switch(i) {
-//         // preferred name
-//         case 0:
-//           part = "\""+parts[i]+"\"";
-//           break;
-//         // nickname
-//         case 1:
-//           part = "("+parts[i]+")";
-//           break;
-//         default:
-//           part = parts[i];
-//           break;
-//       }
-//       name = name.concat(" ", part);
-//     }
-//   }
-//   return name;
-// }
-
 function concatTerm(cand) {
-  var term = cand.current_term_start_date.split(' ')[0];
-  term = term.concat(" to ", cand.term_end_date.split(' ')[0]);
+  var term;
+  if (cand.current_term_start_date) {
+    term = cand.current_term_start_date.split(' ')[0];
+  }
+  if (cand.term_end_date) {
+    term = term.concat(" to ", cand.term_end_date.split(' ')[0]);
+  }
   return term;
 }
 
@@ -208,7 +202,7 @@ function getOfficials() {
   xhr = getXmlHttpRequestObject();
   xhr.onreadystatechange = populate;
   // asynchronous requests
-  xhr.open("GET", "http://localhost:6969/api", true);
+  xhr.open("GET", "http://localhost:6969/officials", true);
   // Send the request over the network
   xhr.send(null);
 }

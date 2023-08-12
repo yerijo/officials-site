@@ -1,21 +1,23 @@
-#sidebar{
-  
-}
-
-#heading{
-  height:5vh;
+#header{
+  height:7vh;
+  line-height:7vh;
   margin:auto;
-  margin-top:10px;
-  width:799px;
 }
 
 body{
   text-align:center;
+  line-height:4vh;
 }
 
 #maincontent{
+  width:80vw;
   margin:auto;
+}
+
+#address-form{
   text-align:left;
+  margin:auto;
+  width:fit-content;
 }
 
 #officials-container{
